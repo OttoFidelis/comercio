@@ -6,6 +6,7 @@ public class Produto {
 	private String nome;
 	private String codigoBarras;
 	private double preco;
+	private String descricao;
     //public  :  Acesso liberado para todas as classes 
 	//private :  Propriedade ( atributo ou método ) só pode ser acessado 
 	//           dentro da própria classe
@@ -33,5 +34,10 @@ public class Produto {
 	public void setPreco(double preco) {
 		this.preco = preco;
 	}
-       
+    public String getDescricao() {
+    	return descricao;
+    }  
+    public void setDescricao(String descricao) {
+    	this.descricao = descricao;
+    }
 }
