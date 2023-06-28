@@ -45,7 +45,7 @@ public class LojaController {
 		listaDeProdutos.add(produto);
 		listaDeProdutos.add(produto2);
 		listaDeProdutos.add(produto3);
-		model.addAttribute("produtos",listaDeProdutos);
+		model.addAttribute("listaDeProdutos",listaDeProdutos);
 		return "produtos";
 	}
 	@GetMapping("/novo-prod")
